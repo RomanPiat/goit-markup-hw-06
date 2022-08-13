@@ -622,6 +622,7 @@ width: 528px;
 height: 581px;
 top: 50%;
 left: 50%;
+padding: 40px;
 transform: translate(-50%, -50%);
 background-color: var(--primary-white-color);
 box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 
@@ -691,7 +692,7 @@ line-height: 100%;
       font-size: 12px;
       line-height: 1.17;
       letter-spacing: 0.01em;
-    }
+}
 
 .form-block-agree  {
     display: flex;
@@ -703,17 +704,16 @@ line-height: 100%;
     align-items: center;
   }
 
-.form-label svg {
+.form-block svg {
     position: absolute;
     width: 18px;
     height: 18px;
     bottom: 11px;
     left: 12px;
-    fill: var(--secondary-text-color);
+    fill: var(--head-text-color);
   }
 
 .form h2 {
-    margin-top: 40px;
     margin-bottom: 12px;
     font-weight: 700;
     font-size: 20px;
@@ -721,11 +721,6 @@ line-height: 100%;
     letter-spacing: 0.03em;
     color: var(--head-text-color);
     text-align: center;
-}
-
-.form-bl { 
-  padding-left: 40px;
-  padding-right: 40px;
 }
 
 .form-block {
@@ -919,7 +914,7 @@ color: var(--accent-color);
   padding: 20px 24px;
 }
 
-.figure > img {
+.figure  img {
   display: block;
 }
 
