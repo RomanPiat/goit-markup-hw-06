@@ -9,6 +9,7 @@
   --logo-black-color: #000;
   --border-color: #eeeeee;
   --icon-color: #AFB1B8;
+  --policy-link-color: #2196F3;
 }
 h1,
 h2,
@@ -616,6 +617,7 @@ input#email {
 
 
 /* modal */
+
 .modal {
 position: absolute;
 width: 528px;
@@ -782,12 +784,8 @@ line-height: 100%;
   margin: 0 auto;
 }
 
-.form-label-agree a {
-color: var(--accent-color);
-}
-
-.form-label-agree {
-  padding-left: 8.38px;
+.policy-link {
+color: var(--policy-link-color);
 }
 
 .checkbox-inp {
